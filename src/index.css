@@ -1,4 +1,22 @@
+.field {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 7rem;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 0 auto;
+}
 
+.start,
+.title,
+.fieldPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .hole {
   background: url("/hole.png") no-repeat center/contain;
 }
@@ -7,3 +25,13 @@
   background-image: url("/mole.png");
 }
 
+button {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  height: 35px;
+  width: 250px;
+}
+button:hover {
+  background-color: gray;
+}
