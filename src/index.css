@@ -35,3 +35,16 @@ button {
 button:hover {
   background-color: gray;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 35rem;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
